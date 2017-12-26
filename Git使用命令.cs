@@ -5,6 +5,8 @@ Git的使用命令
 		$ git config --global user.email "email@example.com"
 	因为Git是分布式版本控制系统，所以每个机器必须自报家门：你的名字和Email地址。
 	注意git config 命令的--global参数，用来这个参数之后，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+	Git Bash输入命令：ssh-keygen -t rsa ;在改目录下产生两个文件：id_rsa,id_rsa.pub 将id_rsa.pub内容复制到GitHub的setting中。 //windows 下的默认生成路径是:C:\Users\Administrator\.ssh
+	
 	2.创建版本库(repository)
 	 版本库又名仓库，可以简单理解成一个目录，这个目录里面的所有文件都可以被git管理起来，每个文件的修改，删除，git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以"还原"；
 	 2.1选择一个合适的地方创建一个目录：
